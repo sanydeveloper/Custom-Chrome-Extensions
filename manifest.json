@@ -2,16 +2,15 @@
     "manifest_version": 3,
     "name": "Dynamic Home Page",
     "version": "1.0",
-    "description": "Changes home page background and plays music on every start.",
+    "description": "A custom homepage with a dynamic background.",
     "chrome_url_overrides": {
-      "newtab": "index.html"
+        "newtab": "index.html"
     },
     "permissions": [],
     "web_accessible_resources": [
-      {
-        "resources": ["images/*", "music/*"],
-        "matches": ["<all_urls>"]
-      }
+        {
+            "resources": ["images/*"],
+            "matches": ["<all_urls>"]
+        }
     ]
-  }
-  
+}
